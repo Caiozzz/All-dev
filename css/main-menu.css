@@ -2,13 +2,6 @@
    width: fit-content;
 }
 
-.main-menu > span {
-   font-size: 12px;
-   font-weight: 300;
-   letter-spacing: .4em;
-   text-transform: uppercase;
-}
-
 .main-menu > ul {
    display: flex;
    flex-direction: column;
