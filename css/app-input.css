@@ -4,7 +4,7 @@
    border-radius: 8px;
    color: rgba(255, 255, 255, 0.70);
    font-family: 'Inter', sans-serif;
-   font-size: 14px;
+   font-size: 16px;
    outline: none;
    padding: 14px 16px;
    transition: .2s;
@@ -18,4 +18,9 @@
 .app-input:focus {
    background-color: rgba(255, 255, 255, 0.24);
    color: rgba(255, 255, 255, 0.80);
+}
+
+textarea.app-input {
+   line-height: 1.5;
+   resize: none;
 }
