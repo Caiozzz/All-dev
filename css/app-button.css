@@ -1,0 +1,21 @@
+.app-button {
+   background-color: var(--bg-item);
+   border: 4px solid transparent;
+   border-radius: 8px;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   outline: none;
+   padding: 10px;
+   transition: .2s;
+}
+
+.app-button:hover {
+   background-color: var(--bg-active);
+   cursor: pointer;
+}
+.app-button:focus {
+   background-color: var(--bg-active);
+}
+.app-button:active {
+   border: 4px solid var(--bg-item);
+}
