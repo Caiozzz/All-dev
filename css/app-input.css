@@ -24,3 +24,7 @@ textarea.app-input {
    line-height: 1.5;
    resize: none;
 }
+
+select.app-input > option {
+   background-color: #5c6075;
+}

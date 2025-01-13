@@ -10,6 +10,7 @@
    <link rel="stylesheet" href="./css/styles.css">
    <link rel="stylesheet" href="./css/main-header.css">
    <link rel="stylesheet" href="./css/main-menu.css">
+   <link rel="stylesheet" href="./css/main-settings.css">
    <link rel="stylesheet" href="./css/app-title.css">
    <link rel="stylesheet" href="./css/app-input.css">
 </head>
@@ -43,10 +44,17 @@
          </li>
       </ul>
    </nav>
-   <section>
+   <section class="main-settings">
       <h2 class="app-title">Seu projeto</h2>
       <input class="app-input" type="text" placeholder="Nome do seu projeto">
       <textarea class="app-input" name="descricao" id="descricao" placeholder="Descrição do seu projeto"></textarea>
+      <h2 class="app-title">Personalização</h2>
+      <select class="app-input">
+         <option value="js">JavaScript</option>
+         <option value="html">HTML</option>
+         <option value="css">CSS</option>
+      </select>
+      <input class="color" type="color" value="#6BD1FF">
    </section>
 </body>
 </html>
