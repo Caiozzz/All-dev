@@ -19,3 +19,15 @@
 .app-button:active {
    border: 4px solid var(--bg-item);
 }
+
+.app-button.--deep {
+   background-color: var(--bg-item-transparent);
+   color: azure;
+}
+
+.app-button.--deep:hover {
+   background-color: var(--bg-item-transparent-hover);
+}
+.app-button.--deep:focus {
+   background-color: #5080fb32;
+}

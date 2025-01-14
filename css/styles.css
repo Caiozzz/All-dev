@@ -1,7 +1,14 @@
 :root {
    --background: #051D3B;
    --bg-item: #5081FB;
+   --bg-item-transparent: #5080fb16;
+   --bg-item-transparent-hover: #5080fb24;
    --bg-active: #7BA4FC;
+   --color-one: #6BD1FF;
+   --color-two: #9AFF6B;
+   --color-three: #6B83FF;
+   --color-four: #FFC46B;
+   --color-five: #FF6BCD;
 }
 
 * {
