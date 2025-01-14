@@ -1,5 +1,6 @@
 .main-menu {
    width: fit-content;
+   position: absolute;
 }
 
 .main-menu > ul {
