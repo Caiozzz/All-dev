@@ -22,3 +22,8 @@ body {
    font-family: 'Inter', sans-serif;
    padding: 0 32px;
 }
+
+main {
+   display: flex;
+   gap: 40px;
+}
