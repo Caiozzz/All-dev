@@ -30,3 +30,35 @@
    line-height: 1.5;
    margin: 0 24px 24px;
 }
+
+.main-post > .actions {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   padding: 0 24px 24px;
+}
+
+.main-post .action {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   border-radius: 16px;
+   padding: 8px;
+   cursor: pointer;
+   transition: .2s;
+}
+
+.main-post .action:hover {
+   background-color: #ffffff16;
+}
+
+.main-post .action:last-child {
+   margin-left: auto;
+}
+.main-post .action:last-child > img {
+   border-radius: 50%;
+}
+
+.main-post .action > img {
+   width: 24px;
+}
