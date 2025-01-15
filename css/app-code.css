@@ -1,0 +1,26 @@
+.app-code {
+   background-color: var(--color-one);
+   border-radius: 8px;
+   padding: 32px;
+   margin-bottom: 32px;
+   position: relative;
+}
+
+.app-code .macbuttons {
+   position: absolute;
+   top: 48px;
+   left: 48px;
+}
+
+.app-code > .code {
+   background-color: #141414;
+   border: none;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: azure;
+   font-family: 'Roboto Mono', sans-serif;
+   outline: none;
+   padding: 52px 16px 16px;
+   resize: none;
+   width: 100%;
+}
