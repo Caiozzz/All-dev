@@ -1,0 +1,32 @@
+.main-post {
+   background-color: #00000032;
+   border-radius: 8px;
+   width: 520px;
+}
+
+.main-post > .app-code {
+   padding: 24px;
+}
+
+.main-post > .app-code > .macbuttons {
+   height: 9px;
+   top: 36px;
+   left: 36px;
+}
+
+.main-post > .app-code > .code {
+   font-size: 11px;
+   padding: 33px 12px 12px;
+}
+
+.main-post > .title {
+   font-size: 21px;
+   margin: 24px 24px 8px;
+}
+
+.main-post > .description {
+   color: #d0d0d0;
+   font-weight: 300;
+   line-height: 1.5;
+   margin: 0 24px 24px;
+}

@@ -11,8 +11,10 @@
    <link rel="stylesheet" href="./css/styles.css">
    <link rel="stylesheet" href="./css/main-header.css">
    <link rel="stylesheet" href="./css/main-menu.css">
+   <link rel="stylesheet" href="./css/main-post.css">
    <link rel="stylesheet" href="./css/app-title.css">
    <link rel="stylesheet" href="./css/app-input.css">
+   <link rel="stylesheet" href="./css/app-code.css">
 </head>
 <body>
    <header class="main-header">
@@ -45,6 +47,24 @@
       </ul>
    </nav>
    <main>
+      <article class="main-post">
+         <div class="app-code">
+            <img class="macbuttons" src="./img/mac_buttons.svg" alt="">
+            <textarea class="code" type="text" rows="13" readonly>const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+const unfold = (f, seed) => {
+  const go = (f, seed, acc) => {
+    const res = f(seed)
+    return res ? go(f, res[1], acc.concat([res[0]])) : acc
+  }
+  return go(f, seed, [])
+}</textarea>
+         </div>
+         <h2 class="title">Título do projeto</h2>
+         <p class="description">Essa é a descrição do meu projeto.</p>
+      </article>
    </main>
 </body>
 </html>
