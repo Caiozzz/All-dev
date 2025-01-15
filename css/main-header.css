@@ -8,6 +8,7 @@
 
 .main-header > .app-input {
    width: 752px;
+   margin-left: 16px;
 }
 
 .main-header > .profile {

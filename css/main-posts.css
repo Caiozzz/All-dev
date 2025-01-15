@@ -1,0 +1,5 @@
+.main-posts {
+   gap: 16px;
+   flex-wrap: wrap;
+   margin-left: 280px;
+}
