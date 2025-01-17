@@ -1,4 +1,4 @@
-.button-menu{
+.action-header{
    background-color: var(--background);
    border: none;
    cursor: pointer;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-   .button-menu {
+   .action-header {
       display: flex;
    }
 }
