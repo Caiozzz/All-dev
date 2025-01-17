@@ -14,7 +14,7 @@
    left: 36px;
 }
 
-.main-post > .app-code > .code {
+.main-post .code {
    font-size: 11px;
    padding: 33px 12px 12px;
 }

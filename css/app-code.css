@@ -24,3 +24,12 @@
    resize: none;
    width: 100%;
 }
+
+@media screen and (max-width: 425px) {
+   
+   .app-code > .code {
+      background-color: #967b7b;
+      font-size: 14px;
+      height: 24em;
+   }
+}
