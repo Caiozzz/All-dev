@@ -62,3 +62,10 @@
 .main-post .action > img {
    width: 24px;
 }
+
+@media screen and (max-width: 768px) {
+   
+   .main-post {
+      width: auto;
+   }
+}

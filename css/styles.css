@@ -31,3 +31,12 @@ main {
    width: fit-content;
    margin-left: auto;
 }
+
+@media screen and (max-width: 768px) {
+
+   main {
+      flex-direction: column;
+      margin: 0;
+      width: auto;
+   }
+}

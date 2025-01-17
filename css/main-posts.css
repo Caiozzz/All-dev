@@ -3,3 +3,10 @@
    flex-wrap: wrap;
    margin-left: 280px;
 }
+
+@media screen and (max-width: 768px) {
+   
+   .main-posts {
+      margin: 0;
+   }
+}

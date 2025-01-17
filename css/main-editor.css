@@ -5,3 +5,10 @@
 .main-editor > .app-button {
    width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+
+   .main-editor {
+      width: 100%;
+   }
+}
