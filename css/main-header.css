@@ -28,14 +28,31 @@
    .main-header {
       gap: 40px;
    }
-
+   
    .main-header > .app-input {
       flex-grow: 1;
       margin: 0;
       width: auto;
    }
-
+   
    .main-header > .profile {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 425px) {
+
+   .main-header {
+      justify-content: end;
+      gap: 8px;
+      padding-top: 16px;
+   }
+
+   .main-header > .logo {
+      margin-right: auto;
+   }
+
+   .main-header > .app-input {
       display: none;
    }
 }
