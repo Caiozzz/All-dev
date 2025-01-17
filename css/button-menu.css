@@ -1,0 +1,7 @@
+.button-menu{
+   background-color: var(--background);
+   border: none;
+   cursor: pointer;
+   display: none;
+   padding: 0;
+}
