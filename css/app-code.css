@@ -12,23 +12,28 @@
    left: 48px;
 }
 
-.app-code > .code {
+.app-code > pre {
+   white-space: pre-wrap;
+}
+
+.app-code .code {
    background-color: #141414;
    border: none;
    border-radius: 8px;
    box-sizing: border-box;
    color: azure;
+   display: block;
    font-family: 'Roboto Mono', sans-serif;
-   outline: none;
    padding: 52px 16px 16px;
-   resize: none;
+   outline: none;
+   overflow-y: scroll;
+   height: 24em;
    width: 100%;
 }
 
 @media screen and (max-width: 425px) {
    
-   .app-code > .code {
-      background-color: #967b7b;
+   .app-code .code {
       font-size: 14px;
       height: 24em;
    }

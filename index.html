@@ -55,7 +55,17 @@
       <section class="main-editor">
          <div class="app-code">
             <img class="macbuttons" src="./img/mac_buttons.svg" alt="">
-            <textarea class="code" type="text" rows="12"></textarea>
+            <pre><code class="code" contenteditable="true">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+const unfold = (f, seed) => {
+   const go = (f, seed, acc) => {
+      const res = f(seed)
+      return res ? go(f, res[1], acc.concat([res[0]])) : acc
+   }
+   return go(f, seed, [])
+}</code></pre>
          </div>
          <button class="app-button --deep">Visualizar com o highlight</button>
       </section>
