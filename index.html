@@ -61,16 +61,16 @@
                <div id="codeArea"><code class="code" contenteditable="true"></code></div>
             </div>
          </div>
-         <button class="app-button --deep">Visualizar com o highlight</button>
+         <button class="app-button --deep" id="button-highlight">Visualizar com o highlight</button>
       </section>
       <section class="main-settings">
          <h2 class="app-title">Seu projeto</h2>
          <input class="app-input" type="text" placeholder="Nome do seu projeto">
          <textarea class="app-input" name="descricao" id="descricao" placeholder="Descrição do seu projeto"></textarea>
          <h2 class="app-title">Personalização</h2>
-         <select class="app-input">
-            <option value="js">JavaScript</option>
-            <option value="html">HTML</option>
+         <select class="app-input" data-language>
+            <option value="javascript">JavaScript</option>
+            <option value="xml">HTML</option>
             <option value="css">CSS</option>
          </select>
          <input class="color" type="color" value="#6BD1FF">
@@ -78,6 +78,6 @@
       </section>
    </main>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-   <script>hljs.highlightAll();</script>
+   <script src="./index.js"></script>
 </body>
 </html>
