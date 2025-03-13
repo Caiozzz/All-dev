@@ -56,17 +56,19 @@
       <article class="main-post">
          <div class="app-code">
             <img class="macbuttons" src="./img/mac_buttons.svg" alt="">
-            <pre><code class="code">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+            <div class="window">
+               <pre><code class="code">const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
 
    const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
    
    const unfold = (f, seed) => {
-     const go = (f, seed, acc) => {
-       const res = f(seed)
-       return res ? go(f, res[1], acc.concat([res[0]])) : acc
-     }
-     return go(f, seed, [])
+      const go = (f, seed, acc) => {
+         const res = f(seed)
+         return res ? go(f, res[1], acc.concat([res[0]])) : acc
+      }
+      return go(f, seed, [])
    }</code></pre>
+            </div>
          </div>
          <h2 class="title">Título do projeto</h2>
          <p class="description">Essa é a descrição do meu projeto.</p>

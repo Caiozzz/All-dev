@@ -6,28 +6,32 @@
    position: relative;
 }
 
+.app-code .window {
+   background-color: #141414;
+   border-radius: 8px;
+   padding-top: 52px;
+}
+
 .app-code .macbuttons {
    position: absolute;
    top: 48px;
    left: 48px;
 }
 
-.app-code > pre {
-   white-space: pre-wrap;
-}
-
 .app-code .code {
-   background-color: #141414;
+   background: none;
    border: none;
-   border-radius: 8px;
    box-sizing: border-box;
    color: azure;
    display: block;
    font-family: 'Roboto Mono', sans-serif;
-   padding: 52px 16px 16px;
+   padding: 0px 16px 16px;
    outline: none;
    overflow-y: scroll;
-   height: 24em;
+   scrollbar-width: none;
+   text-wrap: wrap;
+   white-space: pre-wrap;
+   height: 21em;
    width: 100%;
 }
 
@@ -35,6 +39,5 @@
    
    .app-code .code {
       font-size: 14px;
-      height: 24em;
    }
 }
