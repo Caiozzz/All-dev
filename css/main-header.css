@@ -12,11 +12,17 @@
 }
 
 .main-header > .profile {
+   border-radius: 8px;
    display: flex;
    align-items: center;
    gap: 8px;
    font-weight: 300;
-   padding: 6px 12px;
+   padding: 8px 12px;
+   transition: .2s;
+}
+
+.main-header > .profile:hover {
+   background-color: rgba(255, 255, 255, 0.08);
 }
 
 .main-header > .profile img {
